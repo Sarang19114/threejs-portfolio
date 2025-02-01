@@ -12,9 +12,11 @@
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@gsap/react": "^2.1.1",
-    "@react-three/drei": "^9.111.3",
-    "@react-three/fiber": "^8.17.6",
+    "@react-three/drei": "^9.121.1",
+    "@react-three/fiber": "^8.17.12",
     "@types/three": "^0.168.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.18.0",
     "gsap": "^3.12.5",
     "leva": "^0.9.35",
     "maath": "^0.10.8",
@@ -23,7 +25,10 @@
     "react-dom": "^18.3.1",
     "react-globe.gl": "^2.27.2",
     "react-responsive": "^10.0.0",
+    "simplex-noise": "^4.0.3",
+    "tailwind-merge": "^2.6.0",
     "three": "^0.167.1",
+    "three-globe": "^2.40.2",
     "three-stdlib": "^2.32.2"
   },
   "devDependencies": {
