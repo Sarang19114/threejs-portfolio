@@ -16,6 +16,11 @@ export const navLinks = [
   },
   {
     id: 4,
+    name: 'Experience',
+    href: '#experience',
+  },
+  {
+    id: 5,
     name: 'Contact',
     href: '#contact',
   },
@@ -146,10 +151,10 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Trigger Mind',
+    name: 'TriggerMind',
     pos: 'Technical Lead',
     duration: 'Mar 2024 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
+    title: "As the Technical Lead of TriggerMind, I was responsible for organizing and leading technical events, workshops, and coding competitions. I guided teams in project development, mentored juniors in various technologies, and contributed to fostering a strong tech culture within the club. My role involved collaborating with peers to drive innovation, manage technical challenges, and ensure smooth execution of club activities.",
     icon: '/assets/TriggerMind1.png',
   },
   {
@@ -157,7 +162,7 @@ export const workExperiences = [
     name: 'Unsaidtalks',
     pos: 'Design Intern',
     duration: 'Oct 2024 - Dec 2024',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
+    title: "At Unsaid Talks, I designed posters, carousels, and social media graphics using Canva, helping enhance the brand’s digital presence. I worked on event promotions, announcements, and marketing materials, ensuring visually appealing and engaging content. Collaborating with the team, I maintained a consistent brand aesthetic and improved audience engagement through creative design strategies.",
     icon: '/assets/UsT.png',
   },
 ];
