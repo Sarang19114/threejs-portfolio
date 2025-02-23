@@ -21,11 +21,11 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="hidden sm:flex flex-col items-center justify-center mt-5 ml-10">
+        <div className="hidden sm:flex flex-col items-center justify-center mt-5 ml-10 sm:mb-0">
           <TextRevealCard text="You create the concept," revealText="I write the logic for it..."></TextRevealCard>
         </div>
 
-        <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
+        <div className="relative bottom-7 left-0 right-0 w-full z-10 c-space mt-8 sm:mt-0">
           <a href="#contact" className="w-fit">
             <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96" />
           </a>
